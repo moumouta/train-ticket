@@ -11,7 +11,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>tech.pdai</groupId>
-    <artifactId>SwaggerGenerator</artifactId>
+    <artifactId>SwaggerGenerator-2ndVersion</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

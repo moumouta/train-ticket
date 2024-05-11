@@ -5,74 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bf8af03-7a6d-4999-8717-d6e08b0510cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/train-ticket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/SwaggerGeneratorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/constant/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/demos/web/BasicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/demos/web/PathVariableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/demos/web/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/entity/param/AddressParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/entity/param/UserParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/entity/vo/AddressVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/entity/vo/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/test/java/edu/cuhksz/swaggergenerator/SwaggerGeneratorApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/constant/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/param/AddressParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/param/UserParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/vo/AddressVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/vo/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/wiki/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/wiki/test1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/LoadGeneratorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/controller/LoadGeneratorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/entity/LoadEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/service/LoadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/service/LoadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/test/java/load-generator/controller/LoadGeneratorControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-generator/src/test/java/load-generator/service/LoadServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/API for UI - 4.4 due.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/API互相之间的联系 &amp; 对应的UI操作.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/Initialization.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/Train-ticket.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/设计并生成符合逻辑的请求序列。要求可以随机生成，可以组合 &amp; 如何实现.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/java/adminbasic/config/SwaggerConfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/config/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/constant/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/constant/ResponseStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/param/AddressParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/entity/param/AddressParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/param/UserParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/entity/param/UserParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/vo/AddressVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/entity/vo/AddressVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/java/tech/pdai/springboot/knife4j/entity/vo/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/wiki/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/resources/wiki/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/wiki/test1.md" beforeDir="false" afterPath="$PROJECT_DIR$/SwaggerGenerator-2ndVersion/src/main/resources/wiki/test1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/java/adminbasic/controller/AdminBasicInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/java/adminbasic/controller/AdminBasicInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,10 +93,12 @@
     "Spring Boot.AdminBasicInfoApplication.executor": "Run",
     "Spring Boot.App.executor": "Run",
     "Spring Boot.SwaggerGeneratorApplication.executor": "Run",
+    "Spring Boot.TrainApplication.executor": "Run",
+    "Spring Boot.WaitOrderApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/moumo/Desktop/train-ticket/113-springboot-demo-knife4j-v3",
+    "last_opened_file_path": "C:/Users/moumo/Desktop/train-ticket/load-generator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -136,7 +108,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -152,7 +124,20 @@
       <recent name="C:\Users\moumo\Desktop\train-ticket\load-generator" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="Spring Boot.AdminBasicInfoApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SwaggerGenerator-2ndVersion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SwaggerGenerator-2ndVersion" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminBasicInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ts-admin-basic-info-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="adminbasic.AdminBasicInfoApplication" />
@@ -189,7 +174,7 @@
       </method>
     </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="SwaggerGenerator" />
+      <module name="SwaggerGenerator-2ndVersion" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tech.pdai.springboot.knife4j.App" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,6 +278,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoadGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="load-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="load.LoadGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ts-notification-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="notification.NotificationApplication" />
@@ -392,7 +384,7 @@
       </method>
     </configuration>
     <configuration name="SwaggerGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SwaggerGenerator" />
+      <module name="SwaggerGenerator-2ndVersion" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.cuhksz.swaggergenerator.SwaggerGeneratorApplication" />
       <extension name="coverage">
         <pattern>
@@ -500,7 +492,7 @@
       <workItem from="1715231864278" duration="586000" />
       <workItem from="1715367018123" duration="6451000" />
       <workItem from="1715376155669" duration="920000" />
-      <workItem from="1715377092271" duration="19465000" />
+      <workItem from="1715377092271" duration="27019000" />
     </task>
     <servers />
   </component>

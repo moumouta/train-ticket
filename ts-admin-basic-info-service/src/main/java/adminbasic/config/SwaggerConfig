@@ -1,0 +1,27 @@
+package adminbasic.config;
+
+import com.github.xiaoymin.knife4j.spring.extension.OpenApiExtensionResolver;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
+import springfox.documentation.builders.*;
+import springfox.documentation.oas.annotations.EnableOpenApi;
+import springfox.documentation.schema.ScalarType;
+import springfox.documentation.service.*;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import tech.pdai.springboot.knife4j.constant.ResponseStatus;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import org.springframework.context.annotation.Configuration;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@Configuration //配置类
+@EnableSwagger2// 开启Swagger2的自动配置
+public class SwaggerConfig {
+
+
+}

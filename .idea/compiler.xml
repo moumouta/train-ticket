@@ -34,11 +34,13 @@
         <module name="ts-delivery-service" />
         <module name="ts-order-other-service" />
         <module name="ts-config-service" />
+        <module name="load-generator" />
         <module name="ts-contacts-service" />
         <module name="ts-food-service" />
         <module name="ts-station-service" />
         <module name="ts-payment-service" />
         <module name="ts-food-delivery-service" />
+        <module name="SwaggerGenerator-2ndVersion" />
         <module name="ts-notification-service" />
         <module name="ts-rebook-service" />
         <module name="ts-travel-plan-service" />
@@ -46,21 +48,17 @@
         <module name="ts-station-food-service" />
         <module name="ts-inside-payment-service" />
         <module name="ts-verification-code-service" />
-        <module name="SwaggerGenerator" />
         <module name="ts-seat-service" />
         <module name="ts-gateway-service" />
         <module name="SwaggerGenerator-1stVersion" />
         <module name="ts-consign-price-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="load-generator" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SwaggerGenerator" options="-parameters" />
-      <module name="load-generator" options="" />
+      <module name="SwaggerGenerator-2ndVersion" options="-parameters" />
+      <module name="load-generator" options="-parameters" />
       <module name="ts-admin-basic-info-service" options="-parameters" />
       <module name="ts-admin-order-service" options="-parameters" />
       <module name="ts-admin-route-service" options="-parameters" />
