@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SwaggerGenerator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/load-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/load-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-admin-basic-info-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-admin-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-admin-route-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-admin-travel-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-admin-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-assurance-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-auth-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-basic-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-cancel-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-config-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-consign-price-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-consign-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-contacts-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-delivery-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-execute-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-food-delivery-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-food-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-inside-payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-notification-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-order-other-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-preserve-other-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-preserve-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-price-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-rebook-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-route-plan-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-route-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-seat-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-security-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-station-food-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-station-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-train-food-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-train-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-travel-plan-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-travel-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-travel2-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-verification-code-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ts-wait-order-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

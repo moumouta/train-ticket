@@ -1,30 +1,33 @@
-package adminbasic.controller;
+package load-generator.controller;
 
-import adminbasic.entity.*;
-import adminbasic.service.AdminBasicInfoService;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import load-generator.entity.*;
+import load-generator.service.AdminBasicInfoService;
 import edu.fudan.common.entity.Config;
 import edu.fudan.common.entity.Contacts;
 import edu.fudan.common.entity.Station;
 import edu.fudan.common.entity.TrainType;
-import io.swagger.annotations.Api;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.*;
-
 import static org.springframework.http.ResponseEntity.ok;
 
-/**
- * @author fdse
- */
-@Api(value = "ts-admin-basic-info-service", tags = "ts-admin-basic-info-service")
-@RestController
-@RequestMapping("/api/v1/adminbasicservice")
-public class AdminBasicInfoController {
 
-    @Autowired
+@RestController
+@RequestMapping("/set-load-strategy")
+public class LoadGeneratorController {
+
+    public String setLoadStrategy(@RequestParam String strategy) {
+
+        return "Load strategy set to: " + strategy;
+    }
+
+/*    @Autowired
     AdminBasicInfoService adminBasicInfoService;
     private static final Logger LOGGER = LoggerFactory.getLogger(AdminBasicInfoController.class);
 
@@ -171,6 +174,6 @@ public class AdminBasicInfoController {
     public HttpEntity addPrice(@RequestBody PriceInfo pi, @RequestHeader HttpHeaders headers) {
         AdminBasicInfoController.LOGGER.info("[addPrice][Add Price by admin[PriceInfo id: {}]", pi.getId());
         return ok(adminBasicInfoService.addPrice(pi, headers));
-    }
+    }*/
 
 }

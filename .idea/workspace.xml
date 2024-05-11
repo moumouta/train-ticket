@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bf8af03-7a6d-4999-8717-d6e08b0510cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/train-ticket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/SwaggerGeneratorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/constant/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/demos/web/BasicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/demos/web/PathVariableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/demos/web/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/entity/param/AddressParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/entity/param/UserParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/entity/vo/AddressVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/java/edu/cuhksz/swaggergenerator/entity/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator-1stVersion/src/test/java/edu/cuhksz/swaggergenerator/SwaggerGeneratorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/constant/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/param/AddressParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/param/UserParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/vo/AddressVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/java/tech/pdai/springboot/knife4j/entity/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/wiki/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwaggerGenerator/src/main/resources/wiki/test1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/LoadGeneratorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/controller/LoadGeneratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/entity/LoadEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/service/LoadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/main/java/load-generator/service/LoadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/test/java/load-generator/controller/LoadGeneratorControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-generator/src/test/java/load-generator/service/LoadServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/API for UI - 4.4 due.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/API互相之间的联系 &amp; 对应的UI操作.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Initialization.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/Train-ticket.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/设计并生成符合逻辑的请求序列。要求可以随机生成，可以组合 &amp; 如何实现.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/java/adminbasic/controller/AdminBasicInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/java/adminbasic/controller/AdminBasicInfoController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../../Program Files/apache-maven-3.9.6-bin/apache-maven-3.9.6" />
+        <option name="localRepository" value="C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\maven_repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eX2MqZQa9mWGuhBBMFQYokMWPX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AdminBasicInfoApplication.executor": "Run",
+    "Spring Boot.App.executor": "Run",
+    "Spring Boot.SwaggerGeneratorApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/moumo/Desktop/train-ticket/113-springboot-demo-knife4j-v3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "yaml"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moumo\Desktop\train-ticket" />
+      <recent name="C:\Users\moumo\Desktop\train-ticket\SwaggerGenerator\src\main\java\edu\cuhksz\swaggergenerator" />
+      <recent name="C:\Users\moumo\Desktop\train-ticket\load-generator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="AdminBasicInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-admin-basic-info-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="adminbasic.AdminBasicInfoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-admin-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="adminorder.AdminOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminRouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-admin-route-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="adminroute.AdminRouteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTravelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-admin-travel-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="admintravel.AdminTravelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-admin-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="adminuser.AdminUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SwaggerGenerator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tech.pdai.springboot.knife4j.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssuranceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-assurance-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="assurance.AssuranceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-basic-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fdse.microservice.BasicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CancelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-cancel-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cancel.CancelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-consign-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="consign.ConsignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsignPriceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-consign-price-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="consignprice.ConsignPriceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-contacts-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="contacts.ContactsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeliveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-delivery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="delivery.DeliveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecuteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-execute-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="execute.ExecuteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-food-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foodsearch.FoodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodDeliveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-food-delivery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="food_delivery.FoodDeliveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsidePaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-inside-payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="inside_payment.InsidePaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="notification.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderOtherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-order-other-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="other.OrderOtherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.trainticket.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreserveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-preserve-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="preserve.PreserveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreserveOtherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-preserve-other-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="preserveOther.PreserveOtherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-price-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="price.PriceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RebookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-rebook-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rebook.RebookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-route-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="route.RouteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoutePlanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-route-plan-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="plan.RoutePlanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-seat-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="seat.SeatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-security-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="security.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-station-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fdse.microservice.StationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StationFoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-station-food-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="food.StationFoodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SwaggerGenerator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.cuhksz.swaggergenerator.SwaggerGeneratorApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.cuhksz.swaggergenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-train-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="train.TrainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainFoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-train-food-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="trainFood.TrainFoodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Travel2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-travel2-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="travel2.Travel2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-travel-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="travel.TravelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelPlanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-travel-plan-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="travelplan.TravelPlanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-verification-code-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="verifycode.VerifyCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ts-wait-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="waitorder.WaitOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SwaggerGeneratorApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bf8af03-7a6d-4999-8717-d6e08b0510cf" name="Changes" comment="" />
+      <created>1712036559113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712036559113</updated>
+      <workItem from="1712036560837" duration="41770000" />
+      <workItem from="1712751598078" duration="5751000" />
+      <workItem from="1713154419329" duration="48000" />
+      <workItem from="1713156243757" duration="638000" />
+      <workItem from="1713172553529" duration="1303000" />
+      <workItem from="1713207509520" duration="2606000" />
+      <workItem from="1713324256093" duration="21477000" />
+      <workItem from="1713675623557" duration="1612000" />
+      <workItem from="1713964551582" duration="2261000" />
+      <workItem from="1714371711487" duration="690000" />
+      <workItem from="1714457467219" duration="48072000" />
+      <workItem from="1714739263517" duration="6000" />
+      <workItem from="1714749505580" duration="729000" />
+      <workItem from="1714918441649" duration="3340000" />
+      <workItem from="1714930324735" duration="4348000" />
+      <workItem from="1715003220675" duration="2030000" />
+      <workItem from="1715231864278" duration="586000" />
+      <workItem from="1715367018123" duration="6451000" />
+      <workItem from="1715376155669" duration="920000" />
+      <workItem from="1715377092271" duration="19465000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

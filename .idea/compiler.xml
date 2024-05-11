@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ts-wait-order-service" />
+        <module name="ts-admin-user-service" />
+        <module name="ts-basic-service" />
+        <module name="ts-cancel-service" />
+        <module name="ts-price-service" />
+        <module name="ts-travel2-service" />
+        <module name="ts-travel-service" />
+        <module name="ts-assurance-service" />
+        <module name="ts-train-service" />
+        <module name="ts-auth-service" />
+        <module name="ts-route-service" />
+        <module name="ts-admin-basic-info-service" />
+        <module name="ts-security-service" />
+        <module name="ts-user-service" />
+        <module name="ts-execute-service" />
+        <module name="ts-train-food-service" />
+        <module name="ts-admin-travel-service" />
+        <module name="ts-preserve-other-service" />
+        <module name="ts-admin-route-service" />
+        <module name="ts-common" />
+        <module name="ts-route-plan-service" />
+        <module name="ts-order-service" />
+        <module name="ts-consign-service" />
+        <module name="ts-preserve-service" />
+        <module name="ts-delivery-service" />
+        <module name="ts-order-other-service" />
+        <module name="ts-config-service" />
+        <module name="ts-contacts-service" />
+        <module name="ts-food-service" />
+        <module name="ts-station-service" />
+        <module name="ts-payment-service" />
+        <module name="ts-food-delivery-service" />
+        <module name="ts-notification-service" />
+        <module name="ts-rebook-service" />
+        <module name="ts-travel-plan-service" />
+        <module name="ts-admin-order-service" />
+        <module name="ts-station-food-service" />
+        <module name="ts-inside-payment-service" />
+        <module name="ts-verification-code-service" />
+        <module name="SwaggerGenerator" />
+        <module name="ts-seat-service" />
+        <module name="ts-gateway-service" />
+        <module name="SwaggerGenerator-1stVersion" />
+        <module name="ts-consign-price-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="load-generator" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SwaggerGenerator" options="-parameters" />
+      <module name="load-generator" options="" />
+      <module name="ts-admin-basic-info-service" options="-parameters" />
+      <module name="ts-admin-order-service" options="-parameters" />
+      <module name="ts-admin-route-service" options="-parameters" />
+      <module name="ts-admin-travel-service" options="-parameters" />
+      <module name="ts-admin-user-service" options="-parameters" />
+      <module name="ts-assurance-service" options="-parameters" />
+      <module name="ts-auth-service" options="-parameters" />
+      <module name="ts-basic-service" options="-parameters" />
+      <module name="ts-cancel-service" options="-parameters" />
+      <module name="ts-common" options="-parameters" />
+      <module name="ts-config-service" options="-parameters" />
+      <module name="ts-consign-price-service" options="-parameters" />
+      <module name="ts-consign-service" options="-parameters" />
+      <module name="ts-contacts-service" options="-parameters" />
+      <module name="ts-delivery-service" options="-parameters" />
+      <module name="ts-execute-service" options="-parameters" />
+      <module name="ts-food-delivery-service" options="-parameters" />
+      <module name="ts-food-service" options="-parameters" />
+      <module name="ts-gateway-service" options="-parameters" />
+      <module name="ts-inside-payment-service" options="-parameters" />
+      <module name="ts-notification-service" options="-parameters" />
+      <module name="ts-order-other-service" options="-parameters" />
+      <module name="ts-order-service" options="-parameters" />
+      <module name="ts-payment-service" options="-parameters" />
+      <module name="ts-preserve-other-service" options="-parameters" />
+      <module name="ts-preserve-service" options="-parameters" />
+      <module name="ts-price-service" options="-parameters" />
+      <module name="ts-rebook-service" options="-parameters" />
+      <module name="ts-route-plan-service" options="-parameters" />
+      <module name="ts-route-service" options="-parameters" />
+      <module name="ts-seat-service" options="-parameters" />
+      <module name="ts-security-service" options="-parameters" />
+      <module name="ts-station-food-service" options="-parameters" />
+      <module name="ts-station-service" options="-parameters" />
+      <module name="ts-train-food-service" options="-parameters" />
+      <module name="ts-train-service" options="-parameters" />
+      <module name="ts-travel-plan-service" options="-parameters" />
+      <module name="ts-travel-service" options="-parameters" />
+      <module name="ts-travel2-service" options="-parameters" />
+      <module name="ts-user-service" options="-parameters" />
+      <module name="ts-verification-code-service" options="-parameters" />
+      <module name="ts-wait-order-service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0d933dda-5846-4ec6-8f54-d8d4d82defe6" name="AIOps">
+        <fileTransfer accessType="SFTP" host="10.10.10.132" port="22" sshConfigId="5a5b80cb-0b03-487b-840f-3bf3d290a30c" sshConfig="AIOps">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
